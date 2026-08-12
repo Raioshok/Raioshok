@@ -1,38 +1,29 @@
-# Raio
+# Raioshok
 
-Full-stack backend developer focused on SaaS APIs, control planes, data workflows, reliability tooling, tests, Docker, and CI.
+Full-stack SaaS engineer focused on products that teams use to operate real systems: multi-tenant applications, business APIs, data workflows, and reliability tooling.
 
-## Core Stack
+[Portfolio](https://github.com/Raioshok/portfolio-next) · [Email](mailto:raioshok@gmail.com)
 
-| Area | Tools |
-|------|-------|
-| Languages | TypeScript, JavaScript, Python, Java, Go, SQL |
-| Frontend | Next.js, React, responsive CSS |
-| Backend | Node.js, Express, FastAPI, Spring Boot, Go HTTP services |
-| Data | SQLite, H2, JSON persistence, CSV ingestion |
-| Quality | Vitest, Pytest, Ruff, JUnit, Go test, type checks |
-| Delivery | Docker, GitHub Actions, documented local workflows |
-| SaaS | Tenants, subscriptions, usage metering, API keys, audit logs |
+## Start Here
 
-## Portfolio Projects
+### [Statusplane](https://github.com/Raioshok/statusplane)
 
-| Project | Stack | Summary |
-|---------|-------|---------|
-| `saas-control-plane` | TypeScript, Express, Zod | SaaS backend foundation with tenants, plans, subscriptions, usage metering, API keys, and audit logs |
-| `opsdesk-ts` | TypeScript, Express, Zod | Support-operations API with accounts, tickets, comments, SLA scoring, persistence, and metrics |
-| `risklens-python` | Python, FastAPI, SQLite | Customer-risk analytics API with explainable scoring, batch ingestion, CSV import, and portfolio metrics |
-| `inventory-java` | Java, Spring Boot, H2 | Enterprise inventory REST API with validation, stock workflows, actuator health, and integration tests |
-| `shipwatch-go` | Go, HTTP, concurrency | Reliability monitor with config loading, concurrent endpoint checks, persisted history, and incidents |
-| `portfolio-next` | Next.js, React, TypeScript | Frontend dashboard presenting the project set, stack matrix, and verification commands |
+Engineering operations SaaS built with Next.js, TypeScript, PostgreSQL, Better Auth organizations, Stripe test subscriptions, Drizzle migrations, Vitest, and Playwright. It covers monitored services, incident response, public status pages, team roles, API keys, plan limits, audit history, and a one-click review sandbox.
 
-## Engineering Focus
+The repository documents tenant isolation, SSRF-resistant monitoring, idempotent scheduler and webhook processing, incident state transitions, and the limits of its portfolio deployment.
 
-- Domain logic that maps to real business workflows
-- API boundaries with validation and predictable errors
-- Tenant, plan, usage, and audit concepts for SaaS products
-- Tests around behavior that can break real users
-- Apps that run locally without private services or secrets
+## Focused Systems
 
-## Review Path
+| Project | Decision worth reviewing |
+| --- | --- |
+| [SaaS Control Plane](https://github.com/Raioshok/saas-control-plane) | Entitlements, usage metering, one-time API secrets, and audit events |
+| [RiskLens](https://github.com/Raioshok/risklens-python) | Explainable risk scoring shared by API, batch, and CSV workflows |
+| [Inventory Service](https://github.com/Raioshok/inventory-java) | Reservation state transitions and oversell prevention in Spring Boot |
+| [ShipWatch](https://github.com/Raioshok/shipwatch-go) | Concurrent health checks, history, and incident derivation in Go |
+| [OpsDesk](https://github.com/Raioshok/opsdesk-ts) | Explainable support priority and queue metrics in TypeScript |
 
-Start with `saas-control-plane` for SaaS fundamentals, then inspect `inventory-java` for enterprise REST structure, `risklens-python` for analytics workflows, `shipwatch-go` for reliability tooling, and `opsdesk-ts` for TypeScript API design.
+## Working Stack
+
+`TypeScript` · `Next.js` · `React` · `Node.js` · `PostgreSQL` · `Python` · `FastAPI` · `Java` · `Spring Boot` · `Go` · `Docker` · `GitHub Actions`
+
+I optimize for explicit business rules, narrow authorization boundaries, useful failure states, automated verification, and documentation that admits tradeoffs.
