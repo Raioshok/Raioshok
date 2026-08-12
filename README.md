@@ -2,9 +2,11 @@
 
 # Raioshok
 
-### I build full-stack SaaS products and the backend systems behind them.
+### Full-stack engineer · LLMOps specialist · Prompt designer
 
-Based in Sao Paulo, Brazil. Open to full-stack and backend roles.
+I build SaaS products, backend systems, and production-minded LLM workflows.
+
+Based in Sao Paulo, Brazil. Open to LLMOps, AI engineering, full-stack, and backend roles.
 
 [![Portfolio](https://img.shields.io/badge/Explore_my_work-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Raioshok/portfolio-next)
 [![Email](https://img.shields.io/badge/Email_me-B6FF52?style=for-the-badge&logo=gmail&logoColor=111827)](mailto:raioshok@gmail.com)
@@ -13,11 +15,30 @@ Based in Sao Paulo, Brazil. Open to full-stack and backend roles.
 
 ## A little about me
 
-I like building software from end to end. That usually means taking a business rule, figuring out the data model and API, then building the interface and tests around it.
+I was coding software by hand before LLMs became part of my workflow. That foundation still matters to me: I can read the code, reason about the system, debug it, and make engineering decisions without treating AI output as a black box.
 
-Most of my work is in **TypeScript, Next.js, Node.js, and PostgreSQL**. I also use **Python, Java, and Go** for backend projects because I want to understand the ideas beyond one framework.
+Today I work as an **LLMOps expert, prompt designer, and LLM engineer**, while staying hands-on as a full-stack developer. I design prompts as versioned system components, connect models to tools and data, evaluate outputs, and think about reliability, latency, cost, observability, and failure handling.
 
-The parts I care about most are the ones that make a project feel real: authentication, tenant isolation, permissions, billing, migrations, useful error states, and code another developer can follow.
+I already have multiple finished, runnable projects in public repositories, and I keep new projects in active development. The work here is not a collection of UI mockups: it includes APIs, authentication, tenant isolation, permissions, billing, migrations, tests, Docker, and documented architecture decisions.
+
+## LLMOps and prompt engineering
+
+<p>
+  <img alt="LLMOps" src="https://img.shields.io/badge/LLMOps-B6FF52?style=flat-square&logoColor=111827">
+  <img alt="Prompt engineering" src="https://img.shields.io/badge/Prompt_engineering-111827?style=flat-square&logoColor=white">
+  <img alt="LLM evaluation" src="https://img.shields.io/badge/LLM_evaluation-111827?style=flat-square&logoColor=white">
+  <img alt="RAG" src="https://img.shields.io/badge/RAG-111827?style=flat-square&logoColor=white">
+  <img alt="AI agents" src="https://img.shields.io/badge/AI_agents-111827?style=flat-square&logoColor=white">
+</p>
+
+My LLM work focuses on:
+
+- Designing clear system prompts, reusable prompt templates, and structured outputs.
+- Building retrieval, tool-calling, and agent workflows around real product requirements.
+- Creating evaluation cases instead of judging model quality by a few good examples.
+- Tracking model behavior, token usage, latency, cost, and production failures.
+- Keeping deterministic application logic outside the model whenever normal code is the safer choice.
+- Reviewing AI-generated code with the same standards I apply to code written by hand.
 
 ## What I'm working on
 
@@ -31,15 +52,17 @@ I built the full flow with **Next.js, TypeScript, PostgreSQL, Drizzle, Better Au
 
 [Read the code](https://github.com/Raioshok/statusplane) · [Architecture notes](https://github.com/Raioshok/statusplane/blob/main/docs/ARCHITECTURE.md) · [API documentation](https://github.com/Raioshok/statusplane/blob/main/docs/API.md)
 
-## More things I've built
+## More finished projects
 
-| Project | What I focused on |
-| :--- | :--- |
-| **[SaaS Control Plane](https://github.com/Raioshok/saas-control-plane)** | Tenant lifecycle, plan limits, usage metering, API keys, and audit events in TypeScript |
-| **[RiskLens](https://github.com/Raioshok/risklens-python)** | Explainable customer-risk scoring through FastAPI, batch, and CSV workflows |
-| **[Inventory Service](https://github.com/Raioshok/inventory-java)** | Spring Boot reservation workflows, transaction boundaries, and oversell prevention |
-| **[ShipWatch](https://github.com/Raioshok/shipwatch-go)** | Concurrent endpoint checks, bounded history, and incident reporting in Go |
-| **[OpsDesk](https://github.com/Raioshok/opsdesk-ts)** | A support queue API with transparent SLA priority scoring and metrics |
+| Project | What I focused on | Status |
+| :--- | :--- | :--- |
+| **[SaaS Control Plane](https://github.com/Raioshok/saas-control-plane)** | Tenant lifecycle, plan limits, usage metering, API keys, and audit events in TypeScript | Complete and runnable |
+| **[RiskLens](https://github.com/Raioshok/risklens-python)** | Explainable customer-risk scoring through FastAPI, batch, and CSV workflows | Complete and runnable |
+| **[Inventory Service](https://github.com/Raioshok/inventory-java)** | Spring Boot reservation workflows, transaction boundaries, and oversell prevention | Complete and runnable |
+| **[ShipWatch](https://github.com/Raioshok/shipwatch-go)** | Concurrent endpoint checks, bounded history, and incident reporting in Go | Complete and runnable |
+| **[OpsDesk](https://github.com/Raioshok/opsdesk-ts)** | A support queue API with transparent SLA priority scoring and metrics | Complete and runnable |
+
+Alongside these finished systems, I have new SaaS and LLM-based projects in the design and implementation stages. I publish them when the core workflow, documentation, and review path are ready.
 
 ## My everyday stack
 
@@ -63,11 +86,17 @@ I built the full flow with **Next.js, TypeScript, PostgreSQL, Drizzle, Better Au
 - I document the tradeoffs I made and what I would change for production.
 - I try to leave the repository easier to understand than I found it.
 
+## Languages
+
+- **Portuguese:** fluent
+- **English:** fluent
+- **Spanish:** fluent
+
 ---
 
 <div align="center">
 
-I'm looking for a team where I can keep building useful products, learn from good engineers, and take real ownership of the code I ship.
+I'm looking for a team where I can combine LLMOps expertise with real software engineering, keep building useful products, and take ownership of the code and AI systems I ship.
 
 **[raioshok@gmail.com](mailto:raioshok@gmail.com)**
 
