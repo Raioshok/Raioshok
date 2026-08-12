@@ -1,6 +1,6 @@
 # Raio
 
-Full-stack backend developer focused on practical software systems: APIs, data workflows, reliability tooling, tests, Docker, and CI.
+Full-stack backend developer focused on SaaS APIs, control planes, data workflows, reliability tooling, tests, Docker, and CI.
 
 ## Core Stack
 
@@ -12,25 +12,27 @@ Full-stack backend developer focused on practical software systems: APIs, data w
 | Data | SQLite, H2, JSON persistence, CSV ingestion |
 | Quality | Vitest, Pytest, Ruff, JUnit, Go test, type checks |
 | Delivery | Docker, GitHub Actions, documented local workflows |
+| SaaS | Tenants, subscriptions, usage metering, API keys, audit logs |
 
 ## Portfolio Projects
 
 | Project | Stack | Summary |
 |---------|-------|---------|
+| `saas-control-plane` | TypeScript, Express, Zod | SaaS backend foundation with tenants, plans, subscriptions, usage metering, API keys, and audit logs |
 | `opsdesk-ts` | TypeScript, Express, Zod | Support-operations API with accounts, tickets, comments, SLA scoring, persistence, and metrics |
 | `risklens-python` | Python, FastAPI, SQLite | Customer-risk analytics API with explainable scoring, batch ingestion, CSV import, and portfolio metrics |
 | `inventory-java` | Java, Spring Boot, H2 | Enterprise inventory REST API with validation, stock workflows, actuator health, and integration tests |
 | `shipwatch-go` | Go, HTTP, concurrency | Reliability monitor with config loading, concurrent endpoint checks, persisted history, and incidents |
 | `portfolio-next` | Next.js, React, TypeScript | Frontend dashboard presenting the project set, stack matrix, and verification commands |
 
-## What I Optimize For
+## Engineering Focus
 
-- Clear domain logic that maps to business workflows
-- APIs with validation and predictable errors
+- Domain logic that maps to real business workflows
+- API boundaries with validation and predictable errors
+- Tenant, plan, usage, and audit concepts for SaaS products
 - Tests around behavior that can break real users
-- Apps that run locally without private infrastructure
-- Documentation that makes review and onboarding fast
+- Apps that run locally without private services or secrets
 
-## Verification Mindset
+## Review Path
 
-Every portfolio repo includes repeatable commands for linting, tests, and builds. The goal is simple: a reviewer should be able to clone a repo, run the documented commands, and understand the value of the project quickly.
+Start with `saas-control-plane` for SaaS fundamentals, then inspect `inventory-java` for enterprise REST structure, `risklens-python` for analytics workflows, `shipwatch-go` for reliability tooling, and `opsdesk-ts` for TypeScript API design.
