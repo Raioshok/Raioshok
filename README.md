@@ -8,7 +8,7 @@ I build SaaS products, backend systems, and production-minded LLM workflows.
 
 Based in Sao Paulo, Brazil. Open to LLMOps, AI engineering, full-stack, and backend roles.
 
-[![Portfolio](https://img.shields.io/badge/Explore_my_work-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Raioshok/portfolio-next)
+[![Portfolio](https://img.shields.io/badge/Explore_my_work-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://raioshok.github.io/portfolio-next/)
 [![Email](https://img.shields.io/badge/Email_me-B6FF52?style=for-the-badge&logo=gmail&logoColor=111827)](mailto:raioshok@gmail.com)
 
 </div>
