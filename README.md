@@ -17,7 +17,7 @@ const raioshok = {
   builds:   ["SaaS products", "APIs", "LLM workflows", "the occasional TUI"],
   believes: "if it isn't tested, it's a rumor",
   coffee:   Infinity,
-  playing:  "something on vinyl, probably",
+  playing:  "Warm Safe Place by Staind",
 };
 ```
 
